@@ -22,7 +22,7 @@ def ball_movement():
     if ball.colliderect(player):
         if abs(ball.bottom - player.top) < 10:  # Check if ball hits the top of the paddle
             # TODO Task 2: Fix score to increase by 1
-            score = 1  # Increase player score
+            score += 1  # Increase player score
             ball_speed_y *= -1  # Reverse ball's vertical direction
             # TODO Task 6: Add sound effects HERE
 
@@ -71,14 +71,15 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Pong')  # Set window title
 
 # Colors
-bg_color = pygame.Color('grey12')
+bg_color = pygame.Color('lightseagreen')
 
 # Game Rectangles (ball and player paddle)
 ball = pygame.Rect(screen_width / 2 - 15, screen_height / 2 - 15, 30, 30)  # Ball (centered)
 # TODO Task 1 Make the paddle bigger
 player_height = 15
-player_width = 100
-player = pygame.Rect(screen_width/2 - 45, screen_height - 20, player_width, player_height)  # Player paddle
+player_width = 200
+
+player = pygame.Rect(screen_width/2 - 100, screen_height - 20, player_width, player_height,)  # Player paddle
 
 # Game Variables
 ball_speed_x = 0
@@ -118,7 +119,7 @@ while True:
     player_movement()
 
     # Visuals
-    light_grey = pygame.Color('grey83')
+    light_grey = pygame.Color('navyblue')
     red = pygame.Color('red')
     screen.fill(bg_color)  # Clear screen with background color
     pygame.draw.rect(screen, light_grey, player)  # Draw player paddle
