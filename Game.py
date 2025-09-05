@@ -24,6 +24,7 @@ def ball_movement():
             # TODO Task 2: Fix score to increase by 1
             score += 1  # Increase player score
             ball_speed_y *= -1  # Reverse ball's vertical direction
+            hit_sound.play()
             # TODO Task 6: Add sound effects HERE
 
     # Ball collision with top boundary
@@ -63,6 +64,7 @@ def restart():
 pygame.mixer.pre_init(44100, -16, 1, 1024)
 pygame.init()
 clock = pygame.time.Clock()
+hit_sound = pygame.mixer.Sound('hit.wav')
 
 # Main Window setup
 screen_width = 500  # Screen width (can be adjusted)
