@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69bba66-4b9d-4c0e-81ea-27ba4189ce68" name="Changes" comment="RESET">
+    <list default="true" id="b69bba66-4b9d-4c0e-81ea-27ba4189ce68" name="Changes" comment="RESET 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
     </list>
@@ -155,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757123487693</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="RESET 2">
+      <option name="closed" value="true" />
+      <created>1757124842433</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757124842434</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,9 +185,10 @@
     <MESSAGE value="task 4 parte de screnchot JDM echo" />
     <MESSAGE value="task 5 parte A hecho" />
     <MESSAGE value="RESET" />
-    <option name="LAST_COMMIT_MESSAGE" value="RESET" />
+    <MESSAGE value="RESET 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="RESET 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pa0_project_0_team$Game.coverage" NAME="Game Coverage Results" MODIFIED="1757123844617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pa0_project_0_team$Game.coverage" NAME="Game Coverage Results" MODIFIED="1757125048472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

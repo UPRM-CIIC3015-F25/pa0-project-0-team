@@ -65,6 +65,9 @@ pygame.mixer.pre_init(44100, -16, 1, 1024)
 pygame.init()
 clock = pygame.time.Clock()
 hit_sound = pygame.mixer.Sound('hit.wav')
+pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.play(-1)
+pygame.mixer.music.set_volume(0.5)
 
 # Main Window setup
 screen_width = 500  # Screen width (can be adjusted)
