@@ -12,7 +12,7 @@ def ball_movement():
 
     # Start the ball movement when the game begins
     # TODO Task 5 Create a Merge Conflict
-    speed = 10
+    speed = 7
     if start:
         ball_speed_x = speed * random.choice((1, -1))  # Randomize initial horizontal direction
         ball_speed_y = speed * random.choice((1, -1))  # Randomize initial vertical direction
@@ -21,11 +21,11 @@ def ball_movement():
     # Ball collision with the player paddle
     if ball.colliderect(player):
         if abs(ball.bottom - player.top) < 10:  # Check if ball hits the top of the paddle
-            # TODO Task 2: Fix score to increase by 1
+            # DONE Task 2: Fix score to increase by 1
             score += 1  # Increase player score
             ball_speed_y *= -1  # Reverse ball's vertical direction
             hit_sound.play()
-            # TODO Task 6: Add sound effects HERE
+            # DONE Task 6: Add sound effects HERE
 
     # Ball collision with top boundary
     if ball.top <= 0:
@@ -56,7 +56,7 @@ def restart():
     Resets the ball and player scores to the initial state.
     """
     global ball_speed_x, ball_speed_y, score
-    ball.center = (screen_width / 2, screen_height / 2)  # Reset ball position to center
+    ball.center = (screen_width // 2, screen_height // 2)  # Reset ball position to center
     ball_speed_y, ball_speed_x = 0, 0  # Stop ball movement
     score = 0  # Reset player score
 
@@ -77,7 +77,7 @@ bg_color = pygame.Color('lightseagreen')
 
 # Game Rectangles (ball and player paddle)
 ball = pygame.Rect(screen_width / 2 - 15, screen_height / 2 - 15, 30, 30)  # Ball (centered)
-# TODO Task 1 Make the paddle bigger
+# DONE Task 1 Make the paddle bigger
 player_height = 15
 player_width = 200
 
@@ -97,8 +97,8 @@ start = False  # Indicates if the game has started
 # Main game loop
 while True:
     # Event handling
-    # TODO Task 4: Add your name
-    juan_diego_martinez = "John Doe"
+    # DONE Task 4: add your name
+    name = "John Doe"
     for event in pygame.event.get():
         if event.type == pygame.QUIT:  # Quit the game
             pygame.quit()
@@ -125,7 +125,7 @@ while True:
     red = pygame.Color('red')
     screen.fill(bg_color)  # Clear screen with background color
     pygame.draw.rect(screen, light_grey, player)  # Draw player paddle
-    # TODO Task 3: Change the Ball Color
+    # DONE Task 3: Change the Ball Color
     pygame.draw.ellipse(screen, light_grey, ball)  # Draw ball
     player_text = basic_font.render(f'{score}', False, light_grey)  # Render player score
     screen.blit(player_text, (screen_width/2 - 15, 10))  # Display score on screen
