@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69bba66-4b9d-4c0e-81ea-27ba4189ce68" name="Changes" comment="TASK 5 DONE, MERGE CONFLICT SOLVED">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pa0-project-0-team.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pa0-project-0-team.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b69bba66-4b9d-4c0e-81ea-27ba4189ce68" name="Changes" comment="Moved {General Setup} to line 3." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +63,7 @@
       <workItem from="1757037356630" duration="1892000" />
       <workItem from="1757045057677" duration="2567000" />
       <workItem from="1757084750761" duration="5450000" />
-      <workItem from="1757179410246" duration="4164000" />
+      <workItem from="1757179410246" duration="5577000" />
     </task>
     <task id="LOCAL-00001" summary="TODO Task 2: Fix score to increase by 1 DONE!!!!!!!!">
       <option name="closed" value="true" />
@@ -189,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757179955686</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Moved {General Setup} to line 3.">
+      <option name="closed" value="true" />
+      <created>1757187718596</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757187718597</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,9 +219,10 @@
     <MESSAGE value="BACKGROUND MUSIC" />
     <MESSAGE value="task 5 speed 10x" />
     <MESSAGE value="TASK 5 DONE, MERGE CONFLICT SOLVED" />
-    <option name="LAST_COMMIT_MESSAGE" value="TASK 5 DONE, MERGE CONFLICT SOLVED" />
+    <MESSAGE value="Moved {General Setup} to line 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved {General Setup} to line 3." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pa0_project_0_team$Game.coverage" NAME="Game Coverage Results" MODIFIED="1757181168930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pa0_project_0_team$Game.coverage" NAME="Game Coverage Results" MODIFIED="1757187722370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
