@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69bba66-4b9d-4c0e-81ea-27ba4189ce68" name="Changes" comment="Task 6 hecha" />
+    <list default="true" id="b69bba66-4b9d-4c0e-81ea-27ba4189ce68" name="Changes" comment="task 4 parte de screnchot JDM echo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757090583290</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task 4 parte de screnchot JDM echo">
+      <option name="closed" value="true" />
+      <created>1757119373471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757119373471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,7 +126,8 @@
     <MESSAGE value="Task 2: Fix score to increase by 1 DONE!!!!!!!!" />
     <MESSAGE value="jhhygvhyutr6h" />
     <MESSAGE value="Task 6 hecha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 6 hecha" />
+    <MESSAGE value="task 4 parte de screnchot JDM echo" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 4 parte de screnchot JDM echo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pa0_project_0_team$Game.coverage" NAME="Game Coverage Results" MODIFIED="1757090443281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

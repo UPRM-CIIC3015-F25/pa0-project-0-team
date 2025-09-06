@@ -12,7 +12,7 @@ def ball_movement():
 
     # Start the ball movement when the game begins
     # TODO Task 5 Create a Merge Conflict
-    speed = 7
+    speed = 5
     if start:
         ball_speed_x = speed * random.choice((1, -1))  # Randomize initial horizontal direction
         ball_speed_y = speed * random.choice((1, -1))  # Randomize initial vertical direction
@@ -64,7 +64,7 @@ def restart():
 pygame.mixer.pre_init(44100, -16, 1, 1024)
 pygame.init()
 clock = pygame.time.Clock()
-#hit_sound = pygame.mixer.Sound('hit.wav')
+hit_sound = pygame.mixer.Sound('hit.wav')
 
 # Main Window setup
 screen_width = 500  # Screen width (can be adjusted)
