@@ -20,7 +20,7 @@ def ball_movement():
 
     # Ball collision with the player paddle
     if ball.colliderect(player):
-        if abs(ball.bottom - player.top) < 10:  # Check if ball hits the top of the paddle
+        if abs(ball.bottom - player.top) < 10:  # Check if the ball hits the top of the paddle
             # DONE Task 2: Fix score to increase by 1
             score += 1  # Increase player score
             ball_speed_y *= -1  # Reverse ball's vertical direction
@@ -70,7 +70,7 @@ hit_sound = pygame.mixer.Sound('hit.wav')
 screen_width = 500  # Screen width (can be adjusted)
 screen_height = 500  # Screen height (can be adjusted)
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption('Pong')  # Set window title
+pygame.display.set_caption('Pong')  # Set the window title
 
 # Colors
 bg_color = pygame.Color('lightseagreen')
