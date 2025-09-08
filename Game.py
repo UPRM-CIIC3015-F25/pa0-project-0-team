@@ -8,6 +8,12 @@ hit_sound = pygame.mixer.Sound('hit.wav')
 pygame.mixer.music.load("music.mp3")
 pygame.mixer.music.play(-1)
 pygame.mixer.music.set_volume(0.5)
+screen_width = 500  # Screen width (can be adjusted)
+screen_height = 500  # Screen height (can be adjusted)
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption('Pong')  # Set the window title
+btc_img = pygame.image.load("btc.jpg").convert()
+btc_img = pygame.transform.scale (btc_img, (screen_width, screen_height))
 
 def ball_movement():
     """
@@ -31,7 +37,9 @@ def ball_movement():
     if ball.colliderect(player):
         if abs(ball.bottom - player.top) < 10:  # Check if the ball hits the top of the paddle
             # DONE Task 2: Fix score to increase by 1
-            score += 1  # Increase player score
+            score += 1
+
+
             ball_speed_y *= -1  # Reverse ball's vertical direction
             hit_sound.play()
             # DONE Task 6: Add sound effects HERE
@@ -69,14 +77,6 @@ def restart():
     ball_speed_y, ball_speed_x = 0, 0  # Stop ball movement
     score = 0  # Reset player score
 
-
-
-# Main Window setup
-screen_width = 500  # Screen width (can be adjusted)
-screen_height = 500  # Screen height (can be adjusted)
-screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption('Pong')  # Set the window title
-
 # Colors
 bg_color = pygame.Color('lightseagreen')
 
@@ -96,7 +96,7 @@ player_speed = 0
 # Score Text setup
 score = 0
 basic_font = pygame.font.Font('freesansbold.ttf', 32)  # Font for displaying score
-
+high_score = 0
 start = False  # Indicates if the game has started
 
 # Main game loop
@@ -128,8 +128,12 @@ while True:
     # Visuals
     light_grey = pygame.Color('navyblue')
     red = pygame.Color('red')
-    screen.fill(bg_color)  # Clear screen with background color
+    screen.blit(btc_img, (0, 0))  # Clear screen with background color
     pygame.draw.rect(screen, light_grey, player)  # Draw player paddle
+    if score > high_score:  # Increase player score
+        high_score = score
+    hs_text = pygame.font.Font('freesansbold.ttf', 20).render(f'HI: {high_score}', False, pygame.Color('black'))
+    screen.blit(hs_text, (10, 10))
     # DONE Task 3: Change the Ball Color
     pygame.draw.ellipse(screen, light_grey, ball)  # Draw ball
     player_text = basic_font.render(f'{score}', False, light_grey)  # Render player score
