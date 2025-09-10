@@ -1,8 +1,8 @@
-# PA0 – Pong Game 
+# 😭 PA0 – Pong Game 
 
 This is the **Programming Assignment 0 (PA0)** for CIIC 3015.
 
-# Controls
+# 🎹 Controls
 
 ← / →: Move the paddle left and right
 
@@ -10,7 +10,7 @@ Space: Start ball movement
 
 Window close: Quit game
 
-# Project Files
+# 📂 Project Files
 
 Game.py → main game source code
 
@@ -20,7 +20,9 @@ music.mp3 → looping background music
 
 btc.jpg → background image
 
-# Team
+All other files not mentioned above can be safely deleted.
+
+# 👥 Team
 
 Gabriel E. Andújar Rosario
 
